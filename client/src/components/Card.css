@@ -1,23 +1,37 @@
 .Card-out{
-    border: 2px solid black;
-    width: 40px;
+    border: 2px solid #B7B7B7;
+    border-radius: 10px;
+    font-family: "Mrs Sheppards";
+    font-size: 24px; 
+    color: #8C8C8C;
+    width: 100px;
     height: 90px;
     display: inline-block;
     margin: 10px;
+    padding-top: 7%;
 
 }
 .Card-normal{
     border: 2px solid black;
-    width: 40px;
+    border-radius: 10px;
+    font-family: "Mrs Sheppards";
+    font-size: 24px; 
+    color: black;
+    width: 100px;
     height: 90px;
     display: inline-block;
     margin: 10px;
+    padding-top: 7%;
 }
 
 .Card-today{
     border: 2px solid black;
-    width: 40px;
-    height: 90px;
+    border-radius: 10px;
+    font-family: "Mrs Sheppards";
+    font-size: 24px; 
+    width: 20%;
+    height: 8%;
     display: inline-block;
     margin: 10px;
+    padding-top: 7%;
 }

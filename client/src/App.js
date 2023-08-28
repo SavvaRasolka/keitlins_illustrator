@@ -9,9 +9,9 @@ function App() {
   return (
 
     <div className="App">
+      <Calendar year = {date.getFullYear()} month = {date.getMonth()} day = {date.getDate()}/>
       <Button text="back" onClick={()=>setDate(new Date(date.getFullYear(), (date.getMonth()-1), date.getDate()))}/>
       <Button text="next" onClick={()=>setDate(new Date(date.getFullYear(), (date.getMonth()+1), date.getDate()))}/>
-      <Calendar year = {date.getFullYear()} month = {date.getMonth()} day = {date.getDate()}/>
     </div>
   );
 }
