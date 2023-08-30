@@ -1,5 +1,6 @@
 .Calendar{
-    width: 50%;
+    max-width: 73%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    margin: 10px auto;
 }

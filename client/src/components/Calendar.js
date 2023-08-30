@@ -1,4 +1,4 @@
-import "./Calendar.css";
+import style from "./Calendar.module.css";
 import Card from "./Card";
 import monthSize from "../utils/monthSize";
 
@@ -25,13 +25,14 @@ function Calendar({year, month, day}) {
   function makeCalendar(numbers) {
     let cards = [];
     for (let num in numbers) {
-      cards.push(<Card day={numbers[num].day} style = {numbers[num].style} />);
+      cards.push(<Card day={numbers[num].day} style = {numbers[num].style} key={num}/>);
     }
     return cards;
   }
 
   return (
-    <div className="Calendar">
+    
+    <div className={style.Calendar}>
       {makeCalendar(numbers)}
     </div>
   );

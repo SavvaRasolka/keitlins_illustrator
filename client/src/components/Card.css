@@ -1,5 +1,5 @@
 .Card-out{
-    border: 2px solid #B7B7B7;
+    border: 2px solid #e1e1e1;
     border-radius: 10px;
     font-family: "Mrs Sheppards";
     font-size: 24px; 
@@ -7,12 +7,13 @@
     width: 100px;
     height: 90px;
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
     padding-top: 7%;
 
 }
 .Card-normal{
-    border: 2px solid black;
+    border: 2px solid #e1e1e1;
+    /* opacity : 30%; */
     border-radius: 10px;
     font-family: "Mrs Sheppards";
     font-size: 24px; 
@@ -20,18 +21,18 @@
     width: 100px;
     height: 90px;
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
     padding-top: 7%;
 }
 
 .Card-today{
-    border: 2px solid black;
+    border: 2px solid #e1e1e1;
     border-radius: 10px;
     font-family: "Mrs Sheppards";
     font-size: 24px; 
     width: 20%;
     height: 8%;
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
     padding-top: 7%;
 }
