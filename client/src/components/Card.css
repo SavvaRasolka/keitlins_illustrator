@@ -36,3 +36,11 @@
     margin: 5px;
     padding-top: 7%;
 }
+
+.Rectangle{
+    min-height: 12px;
+    max-width: 90%;
+    margin-top: 4px;
+    margin: 4px auto 0px ;
+    /* background-color: red; */
+}
